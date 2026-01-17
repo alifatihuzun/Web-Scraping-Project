@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# --- BENIM PROJEM ICIN OZEL ---
+
+# Cekilen verileri (JSON) yukleme
+*.json
+*.csv
+*.xlsx
+
+# Selenium Driver dosyalari (eger klasorun icine atarsan)
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+chromedriver
+geckodriver
+
+# Hata loglari
+geckodriver.log
+chromedriver.log
