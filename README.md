@@ -29,26 +29,34 @@ Projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin
 ```bash
 git clone [https://github.com/alifatihuzun/Web-Scraping-Project.git](https://github.com/alifatihuzun/Web-Scraping-Project.git)
 cd Web-Scraping-Project
+```
 Adım 2: Sanal Ortam Oluşturun (Önerilen)
 Bash
-
+```
 python -m venv venv
+```
 # Windows için:
+```
 venv\Scripts\activate
+```
 # Mac/Linux için:
+```
 source venv/bin/activate
+```
 Adım 3: Gerekli Kütüphaneleri Yükleyin
 Bash
-
+```
 pip install -r requirements.txt
+```
 (Eğer requirements.txt dosyanız yoksa pip install selenium komutu yeterlidir.)
 
 💻 Kullanım
 Kurulum tamamlandıktan sonra scripti çalıştırmak için terminale şu komutu yazın:
 
 Bash
-
+```
 python main.py
+```
 (Not: Python dosyanızın adı main.py değilse, kendi dosya adınızı yazın örn: python scrape.py)
 
 İşlem tamamlandığında proje klasöründe şikayetlerin bulunduğu bir .json dosyası oluşacaktır: feyziye-mektepleri-vakfi-isik-okullari-kurumlari-sikayetler.json
